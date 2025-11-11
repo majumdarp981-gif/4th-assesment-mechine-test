@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.55;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height:auto;
+}
+.max-container {
+  width:100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.header{
+    position: relative;
+}
+.container {
+  max-width: 1182px;
+  width:100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo{
+    position:absolute;
+    top: 0;
+    z-index: 1;
+}
+.logo>a{
+    display:block;
+    max-width:220px;
+}
+.navbar{
+    display:flex;
+    /* justify-content:space-between; */
+    align-items:center;
+    padding:30px 0;
+}
+.navlinks{
+    display: flex;
+    /* align-items: center; */
+}
+.navlinks>li{
+    padding:0 20px;
+}
+.navlinks>li>a{
+    color:black;
+
+}
+.navlinks li a:hover {
+  color: #bb7b96;
+}
+.cmn-btn {
+  display: inline-block;
+  background: #EAE4EA;
+  color: black;
+  padding: 17px 15px;
+  transition: 0.5s ease;
+  border-radius: 50px;
+  
+}
+.cmn-btn:hover {
+  background: black;
+  color:white;
+}
+.navlinks{
+    margin-left: auto;
+}
+.banner {
+    position: relative;
+  background: url("images/Mask group (20).png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 888px;
+ padding-top: 48px;
+ 
+}
+h1{
+    text-align:center;
+  font-family: "Inter", sans-serif;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: capitalize;
+  margin-bottom: 34px;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-btn{
+    text-align:center;
+   
+    
+}
+.banner-btn>.cmn-btn{
+     padding: 20px 24px;
+     background: #AA6AAA;
+     color: white;
+     margin-top: 23px;
+}
+.banner-btn>.cmn-btn:hover{
+     
+     background: black;
+    
+}
+.potential{
+    position:relative;
+    padding: 82px 0;
+     
+}
+.col50{
+    
+  max-width: 50%;
+  flex: 0 0 50%;
+  padding: 0 15px;
+
+}
+.property-heading-one{
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 24px;
+    margin-bottom: 72px;
+}
+.property-btn {
+  display: inline-block;
+  background: #AA6AAA;
+  color: white;
+  padding: 20px 41px;
+  transition: 0.5s ease;
+  border-radius: 50px;
+  
+}
+.property-btn:hover{
+     
+     background: black;
+    
+}
+.property-cnt{
+    margin-top:72px;
+    margin-bottom:83px;
+}
+.build{
+    position:relative;
+    background: linear-gradient(180deg, rgba(207, 198, 211, 0.32) 0%, rgba(207, 198, 211, 0.2784) 43.28%, rgba(207, 198, 211, 0.1632) 68.82%, rgba(207, 198, 211, 0.1664) 116.55%);
+    padding:100px 0;
+}
+.build-heading{
+   
+    font-size: 50px;
+    text-align:center;
+    margin-bottom: 42px;
+}
+.col25{
+    
+  max-width: 25%;
+  flex: 0 0 25%;
+  padding: 0 15px;
+
+}
+.card2,.card7{
+    background-color: #EAE4EA;
+}
+.card4,.card5{
+    background-color: #AA6AAA;
+    color: white;
+}
+.card2,.card4,.card5,.card7{
+    padding-top: 40px;
+    padding-left: 5px;
+    padding-right:5px;
+    padding-bottom: 8px;
+     border-radius: 10px;
+}
+h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 1.37;
+}
+.card2>p{
+    margin-top: 3px;
+    margin-bottom: 55px;
+   color: gray;
+}
+.card4>p{
+     margin-top: 3px;
+    margin-bottom: 55px;
+   
+}
+.card5>p{
+     margin-top: 3px;
+    margin-bottom: 55px;
+    
+}
+.card7>p{
+     margin-top: 3px;
+    margin-bottom: 55px;
+    color: gray;
+}
+.contact>a{
+   color: black;
+   
+}
+.testimonials{
+    position:relative;
+    padding-top: 100px;
+    padding-bottom: 160px;
+}
+.box{
+    text-align: center;
+}
+.testi{
+    display:inline-block;
+    padding: 9px 18px;
+    border:1px solid gray;
+    border-radius: 50px;
+}
+.testimonial-heading{
+    text-align: center;
+}
+.testimonial-heading{
+    
+    font-size: 50px;
+   
+}
